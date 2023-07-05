@@ -27,14 +27,6 @@
           :color="vipInfo?.status === 'ok' ? '#d1ae6a' : undefined"
           processing>
         </n-progress>
-       <p style="margin-bottom: 0;">
-          <n-tooltip placement="right">
-              <template #trigger>
-                <a style="color: #306eff;" target="_blank" href="https://www.tjsky.net/?p=220#i-21">文件列表刷不出来？</a>
-              </template>
-               【请依次点选：设置-代理设置-恢复默认-保存设置 后再刷新试试】 
-          </n-tooltip>
-       </p>
       </div>
       <div class="sider-bottom" v-if="!collapsed" :class="{vip: vipInfo?.status === 'ok'}">
         <div class="bottom-user-info">

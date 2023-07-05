@@ -26,10 +26,10 @@
             </n-switch>
           </n-form-item>
           <n-alert title="由于浏览器限制，请按下图设置开始混合模式" type="info"  v-if="aria2Data.host && aria2Data.host.indexOf('https://') === -1 && aria2Data.host.indexOf('http://localhost') == -1 && aria2Data.host.indexOf('http://127.0.0.1') === -1">
-            <img src="../assets/aria2-tip-1.png" alt=""> 
+            <img src="/assets/aria2-tip-1.png" alt="">
             <br />
             <br />
-            <img src="../assets/aria2-tip-2.png" alt="">
+            <img src="/assets/aria2-tip-2.png" alt="">
           </n-alert>
           <n-form-item>
             <n-button type="primary" @click="testAria2">测试并保存</n-button>
